@@ -4,7 +4,7 @@ console.log('WORKER: executing.');
 
 // List of files to be cached
 var cachedFiles = [
-	'offline-version1.html',
+	'offline.html',
 	'assets/favicon.ico',
 	'assets/apple-touch-icon.png',
 	'assets/maven-header-logo.png',
