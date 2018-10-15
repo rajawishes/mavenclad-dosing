@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="format-detection" content="telephone=no">
+        <!--[if IE]>     <meta http-equiv="cleartype" content="on" />    <![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+		<link rel="apple-touch-startup-image" href="assets/apple-touch-icon.png">
+		
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-title" content="Dosing Offline" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="white" />
+		<meta name="theme-color" content="#ffffff" />
+
+		<link rel="stylesheet" type="text/css" href="css/library.css">
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+        <title>Dosing offline</title>
+
+    </head>
+        <body class="dosing-lookup-page navigation-orange-triangle nb espanol" style="height: 635px; overflow: auto;">
+            <!-- hidden fields values based on page properties -->
+            <div class="merck-neuro hidden-wrapper hide">
+                <input type="hidden" id="pageBehindLogin" value="false">
+                <input type="hidden" id="siteBehindLogin" value="false">
+                <input type="hidden" id="navigateToLandingOnSession" value="false">
+            </div>
+            <!-- hidden fields values based on page properties ends-->
+            <div class="stack-component-wrapper">
+                <header>
+                    <div class="header-container iparsys parsys">
+                        <div class="section">
+                            <div class="new"></div>
+                        </div>
+                        <div class="iparys_inherited">
+                            <div class="header-container iparsys parsys">
+                                <div class="header section">
+                                    <!--  -->
+                                    <header class="merck-neuro-comp">
+                                        <div class="desk-header neuro-header-container">
+                                            <div class="header-content-panel logo-in-ipad">
+                                                <!--Logo panel starts-->
+                                                <div class="logo-panel">
+                                                        
+                                                        <div class="maven-header-logo">
+														
+														
+														<img alt="header-logo" src="assets/maven-header-logo.png">
+														
+														</div>
+                                                    <div class="logo-caption">
+														This website is for Healthcare Professionals outside North America only
+														<div class="cls-tt" style="text-align: right;/* top: 182px; */cursor: pointer; padding-top:10px;">
+															<a target="_blank" download href="assets/Mavenclad-PI.PDF">DOWNLOAD MAVENCLAD<sup>®</sup> SmPC</a>
+														</div>
+													</div>
+                                                </div>
+                                                <!--Logo panel ends-->
+                                                <!--Global Navigation starts -->
+                                                <!--Global Navigation ends -->
+                                            </div>
+                                        </div>
+                                    </header>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="bg-wrapper">
+                    <div class="content-container theme-orange">
+                        <div class="contentParsys parsys">
+                            <div class="gridcomponent section">
+                                <div class="component-grid ">
+                                    <div class="custom-grid page-stack top-spacing">
+                                        <div class="container-fluid stack-body ">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
+                                                    <div class="contentparsys1 parsys">
+                                                        <div class="richtext parbase section">
+                                                            <div class="component-rich-text gloss" >
+                                                                <div class="top-spacing">
+                                                                    <div class="tertiary">
+                                                                        <div class="rich-text-wrapper bg-white">
+                                                                            <h1>
+                                                                                This dosing tool will display the correct <b>MAVENCLAD </b>
+                                                                                dose by patient weight per treatment year<sup>1</sup>
+                                                                            </h1>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="dosing-lookup parbase section">
+                                                            <div class="well dosing-lookup-comp">
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <h4>Please enter your patient's weight:</h4>
+                                                                        <div class="input-box-div">
+                                                                            <input type="text" id="wgt-txtbox" class="dosing-wt-value" value="67">
+                                                                            <input type="text" id="wgt-txtbox-two" class="dosing-wt-unit" value="kg" disabled="">
+                                                                            <input type="submit" value="SUBMIT WEIGHT" id="doDosingLookup" class="btncls">
+                                                                            <div>
+                                                                                <small class="contact-cls">Please only enter numbers up to one decimal place</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <p class="diagosis-para">
+                                                                            <span>MAVENCLAD</span>
+                                                                            comes in packet sizes of 1, 4 and 6 tablets. These have been designed <br>to optimize prescribing and aid patient convenience (and adherence).
+                                                                        </p>
+                                                                        <div class="return-to-site" style="    color: #fff;    background-color: #1375a7;    padding:12px 5px;    font-size: 14px;    font-family: ProximaNova-Bold;">
+                                                                            <a style="color: #fff;" href="https://www.merckneurology.com/en/mavenclad/getting-started/dosing.html">
+                                                                                For further detail visit MAVENCLAD.com  
+                                                                                
+																				
+																				<img alt="white-arrow-right" id="white-arr-link" src="assets/white_arrow_right.png" style="height: 18px; width: 30px; vertical-align: middle; margin-left: 0px;">
+																				
+																				
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div id="outputDiv" ><div class="dosing-outer-wrapper days-tablts col-sm-6"><div class="tablet-dosing-wrapper">
+                                                                                <div class="week-number">
+                                                                                    <span class="day-count week-1">Week 1</span>
+                                                                                    <span class="pill-img">
+                                                                                        <div class="pill-image" style="
+    margin-top:  10px;
+    margin-bottom: 20px;
+">
+																						
+																						<img src="assets/Pill.png" alt="pill" style="
+    /* margin-bottom: 30px; */
+">
+																						
+																						
+																						</div></span>
+                                                                                    <span class="pill-img">
+                                                                                        <div class="pill-image">
+																						
+																						<img src="assets/Pill.png" alt="pill">
+																						
+																						
+																						</div></span>
+                                                                                    <span class="day-count week-5">Week 5</span>
+                                                                                </div>
+                                                                                <div class="daily-dose-d1">
+                                                                                    <span class="day-count week-1">Day 1</span>
+                                                                                    <span class="tblt-count week-1">2</span>
+                                                                                    <span class="tblt-count week-5">2</span>
+                                                                                    <span class="day-count week-5">Day 1</span>
+                                                                                </div>
+                                                                                <div class="daily-dose-d2">
+                                                                                    <span class="day-count week-1">Day 2</span>
+                                                                                    <span class="tblt-count week-1">1</span>
+                                                                                    <span class="tblt-count week-5">1</span>
+                                                                                    <span class="day-count week-5">Day 2</span>
+                                                                                </div>
+                                                                                <div class="daily-dose-d3">
+                                                                                    <span class="day-count week-1">Day 3</span>
+                                                                                    <span class="tblt-count week-1">1</span>
+                                                                                    <span class="tblt-count week-5">1</span>
+                                                                                    <span class="day-count week-5">Day 3</span>
+                                                                                </div>
+                                                                                <div class="daily-dose-d4">
+                                                                                    <span class="day-count week-1">Day 4</span>
+                                                                                    <span class="tblt-count week-1">1</span>
+                                                                                    <span class="tblt-count week-5">1</span>
+                                                                                    <span class="day-count week-5">Day 4</span>
+                                                                                </div>
+                                                                                <div class="daily-dose-d5">
+                                                                                    <span class="day-count week-1">Day 5</span>
+                                                                                    <span class="tblt-count week-1">1</span>
+                                                                                    <span class="tblt-count week-5">1</span>
+                                                                                    <span class="day-count week-5">Day 5</span>
+                                                                                </div>
+                                                                            </div><div class="pack-div pack-dosing-wrapper">
+                                                                                <p class="colored-text-pack packs-header">Pack Sizes</p>
+                                                                                <div class="pack-row-0 show">
+                                                                                    <span class="day-count pack-image-left p-6"><img class="img-p6" src="assets/Tablets6.png" alt="tablets6"></span>
+                                                                                    <span class="tblt-count pack-count-left p-6-count count-filled">1</span>
+                                                                                    <span class="tblt-count pack-count-right p-6-count count-filled">1</span>
+                                                                                    <span class="day-count pack-image-right p-6"><img class="img-p6" src="assets/Tablets6.png" alt="tablets6"></span>
+                                                                                </div>
+                                                                                <div class="pack-row-1 hide">
+                                                                                    <span class="day-count pack-image-left"></span>
+                                                                                    <span class="tblt-count pack-count-left"></span>
+                                                                                    <span class="tblt-count pack-count-right"></span>
+                                                                                    <span class="day-count pack-image-right"></span>
+                                                                                </div>
+                                                                                <div class="pack-row-2 hide">
+                                                                                    <span class="day-count pack-image-left"></span>
+                                                                                    <span class="tblt-count pack-count-left"></span>
+                                                                                    <span class="tblt-count pack-count-right"></span>
+                                                                                    <span class="day-count pack-image-right"></span>
+                                                                                </div>
+                                                                            </div></div></div>
+                                                                    <div class="template hide">
+                                                                        <div class="error-text invalid-err-msg">
+                                                                            Use of <b>MAVENCLAD</b>
+                                                                            in patients weighing less than 40kg has not been investigated. Please enter a value ≥40kg.
+                                                                        </div>
+                                                                        <div class="error-text no-dosing-msg">No Dosing Found...</div>
+                                                                        <div class="dosing-outer-wrapper days-tablts col-sm-6">
+                                                                            <div class="tablet-dosing-wrapper">
+                                                                                <div class="week-number">
+                                                                                    <span class="day-count left"></span>
+                                                                                    <span class="pill-img">
+                                                                                        <div class="pill-image">
+																						
+																						<img src="assets/Pill.png" alt="pill">
+																						
+																						
+																						</div></span>
+                                                                                    <span class="pill-img">
+                                                                                        <div class="pill-image">
+																						
+																						<img src="assets/Pill.png" alt="pill">
+																						
+																						
+																						</div></span>
+                                                                                    <span class="day-count right"></span>
+                                                                                </div>
+                                                                                <div class="daily-dose-d1">
+                                                                                    <span class="day-count left"></span>
+                                                                                    <span class="tblt-count left"></span>
+                                                                                    <span class="tblt-count right"></span>
+                                                                                    <span class="day-count right"></span>
+                                                                                </div>
+                                                                                <div class="daily-dose-d2">
+                                                                                    <span class="day-count left"></span>
+                                                                                    <span class="tblt-count left"></span>
+                                                                                    <span class="tblt-count right"></span>
+                                                                                    <span class="day-count right"></span>
+                                                                                </div>
+                                                                                <div class="daily-dose-d3">
+                                                                                    <span class="day-count left"></span>
+                                                                                    <span class="tblt-count left"></span>
+                                                                                    <span class="tblt-count right"></span>
+                                                                                    <span class="day-count right"></span>
+                                                                                </div>
+                                                                                <div class="daily-dose-d4">
+                                                                                    <span class="day-count left"></span>
+                                                                                    <span class="tblt-count left"></span>
+                                                                                    <span class="tblt-count right"></span>
+                                                                                    <span class="day-count right"></span>
+                                                                                </div>
+                                                                                <div class="daily-dose-d5">
+                                                                                    <span class="day-count left"></span>
+                                                                                    <span class="tblt-count left"></span>
+                                                                                    <span class="tblt-count right"></span>
+                                                                                    <span class="day-count right"></span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="pack-div pack-dosing-wrapper">
+                                                                                <p class="colored-text-pack packs-header">Pack Sizes</p>
+                                                                                <div class="pack-row-0 hide">
+                                                                                    <span class="day-count pack-image-left"></span>
+                                                                                    <span class="tblt-count pack-count-left"></span>
+                                                                                    <span class="tblt-count pack-count-right"></span>
+                                                                                    <span class="day-count pack-image-right"></span>
+                                                                                </div>
+                                                                                <div class="pack-row-1 hide">
+                                                                                    <span class="day-count pack-image-left"></span>
+                                                                                    <span class="tblt-count pack-count-left"></span>
+                                                                                    <span class="tblt-count pack-count-right"></span>
+                                                                                    <span class="day-count pack-image-right"></span>
+                                                                                </div>
+                                                                                <div class="pack-row-2 hide">
+                                                                                    <span class="day-count pack-image-left"></span>
+                                                                                    <span class="tblt-count pack-count-left"></span>
+                                                                                    <span class="tblt-count pack-count-right"></span>
+                                                                                    <span class="day-count pack-image-right"></span>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                            <div class="img-p1-container">
+																				<img class="img-p1" src="assets/Tablet1.png" alt="tablets 1">
+																			</div>
+                                                                            
+                                                                            <div class="img-p4-container">
+																				<img class="img-p4" src="assets/Tablets4.png" alt="tablets 4">
+																			</div>
+                                                                            
+                                                                            <div class="img-p6-container">
+																				 <img class="img-p6" src="assets/Tablets6.png" alt="tablets6">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <input type="hidden" id="dosingCompWeekLabel" value="Week ">
+                                                            <input type="hidden" id="dosingCompDayLabel" value="Day ">
+                                                            <div class="hide" id="agelyDosingMapContainer">{"80x":"[{\"sizeWisePackCount\":\"p4=2\",\"weekNo\":\"1\",\"weightRange\":\"80x\",\"dayWiseTabletCount\":\"d1=2,d2=2,d3=2,d4=1,d5=1\"}, {\"sizeWisePackCount\":\"p1=1,p6=1\",\"weekNo\":\"5\",\"weightRange\":\"80x\",\"dayWiseTabletCount\":\"d1=2,d2=2,d3=1,d4=1,d5=1\"}]","100x":"[{\"sizeWisePackCount\":\"p4=1,p6=1\",\"weekNo\":\"1\",\"weightRange\":\"100x\",\"dayWiseTabletCount\":\"d1=2,d2=2,d3=2,d4=2,d5=2\"}, {\"sizeWisePackCount\":\"p1=1,p4=2\",\"weekNo\":\"5\",\"weightRange\":\"100x\",\"dayWiseTabletCount\":\"d1=2,d2=2,d3=2,d4=2,d5=1\"}]","90x":"[{\"sizeWisePackCount\":\"p1=1,p4=2\",\"weekNo\":\"1\",\"weightRange\":\"90x\",\"dayWiseTabletCount\":\"d1=2,d2=2,d3=2,d4=2,d5=1\"}, {\"sizeWisePackCount\":\"p4=2\",\"weekNo\":\"5\",\"weightRange\":\"90x\",\"dayWiseTabletCount\":\"d1=2,d2=2,d3=2,d4=1,d5=1\"}]","40x":"[{\"sizeWisePackCount\":\"p4=1\",\"weekNo\":\"1\",\"weightRange\":\"40x\",\"dayWiseTabletCount\":\"d1=1,d2=1,d3=1,d4=1,d5=0\"}, {\"sizeWisePackCount\":\"p4=1\",\"weekNo\":\"5\",\"weightRange\":\"40x\",\"dayWiseTabletCount\":\"d1=1,d2=1,d3=1,d4=1,d5=0\"}]","50x":"[{\"sizeWisePackCount\":\"p1=1,p4=1\",\"weekNo\":\"1\",\"weightRange\":\"50x\",\"dayWiseTabletCount\":\"d1=1,d2=1,d3=1,d4=1,d5=1\"}, {\"sizeWisePackCount\":\"p1=1,p4=1\",\"weekNo\":\"5\",\"weightRange\":\"50x\",\"dayWiseTabletCount\":\"d1=1,d2=1,d3=1,d4=1,d5=1\"}]","110plus":"[{\"sizeWisePackCount\":\"p4=1,p6=1\",\"weekNo\":\"1\",\"weightRange\":\"110plus\",\"dayWiseTabletCount\":\"d1=2,d2=2,d3=2,d4=2,d5=2\"}, {\"sizeWisePackCount\":\"p4=1,p6=1\",\"weekNo\":\"5\",\"weightRange\":\"110plus\",\"dayWiseTabletCount\":\"d1=2,d2=2,d3=2,d4=2,d5=2\"}]","60x":"[{\"sizeWisePackCount\":\"p6=1\",\"weekNo\":\"1\",\"weightRange\":\"60x\",\"dayWiseTabletCount\":\"d1=2,d2=1,d3=1,d4=1,d5=1\"}, {\"sizeWisePackCount\":\"p6=1\",\"weekNo\":\"5\",\"weightRange\":\"60x\",\"dayWiseTabletCount\":\"d1=2,d2=1,d3=1,d4=1,d5=1\"}]","70x":"[{\"sizeWisePackCount\":\"p1=1,p6=1\",\"weekNo\":\"1\",\"weightRange\":\"70x\",\"dayWiseTabletCount\":\"d1=2,d2=2,d3=1,d4=1,d5=1\"}, {\"sizeWisePackCount\":\"p1=1,p6=1\",\"weekNo\":\"5\",\"weightRange\":\"70x\",\"dayWiseTabletCount\":\"d1=2,d2=2,d3=1,d4=1,d5=1\"}]"}</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gridcomponent section">
+                                <div class="component-grid ">
+                                    <div class="custom-grid page-stack">
+                                        <div class="container-fluid stack-body ">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
+                                                    <div class="contentparsys1 parsys">
+                                                        <div class="richtext parbase section">
+                                                            <div class="component-rich-text gloss" >
+																<div class="rich-text-wrapper bg-white">
+																	<h1 style="font-size: 12px; line-height: 22px;">
+																		<i><b>This dosing information is provided for information purposes only; under no circumstances may it be used or understood as a substitute for healthcare professional advice and is not to be used for diagnosis of any health problem or disease.</b>
+																		<br>Please note this data is only valid on the day you have downloaded, please check the website for the most up-to-date information.</i>
+																	</h1>
+																</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="accordion section full-dosing-tables">
+                                                            <div class="page-container container-fluid custom-grid">
+                                                                <div class="panel-group accordion secondary" >
+                                                                    <div class="panel panel-default">
+                                                                        <div class="panel-heading accordion-toggle accordion-icon-style collapsed" data-toggle="collapse" data-parent="#" data-target="#d5c427e5-d8b4-4510-a959-ebb182c733711" aria-expanded="false">
+                                                                            <h4 class="panel-title accordion-section-title" data-model=".d5c427e5-d8b4-4510-a959-ebb182c73371-1">Full dosing tables            </h4><div class="accordion-img-plus"></div> <div class="accordion-img-minus"></div>
+                                                                            <div class="accordion-img-plus"></div>
+                                                                            <div class="accordion-img-minus" style="display: none;"></div>
+                                                                            <div class="accordion-img-plus"></div>
+                                                                            <div class="accordion-img-minus" style="display: none;"></div>
+                                                                            <div class="accordion-img-plus"></div>
+                                                                            <div class="accordion-img-minus" style="display: none;"></div>
+                                                                            <div class="accordion-img-plus"></div>
+                                                                            <div class="accordion-img-minus" style="display: none;"></div>
+                                                                            <div class="accordion-img-plus"></div>
+                                                                            <div class="accordion-img-minus" style="display: none;"></div>
+                                                                            <div class="accordion-img-plus"></div>
+                                                                            <div class="accordion-img-minus" style="display: none;"></div>
+                                                                            <div class="accordion-img-plus"></div>
+                                                                            <div class="accordion-img-minus" style="display: none;"></div>
+                                                                            <div class="clsmore">See more</div>
+                                                                            <div class="clsless">See less</div>
+                                                                        </div>
+                                                                        <div id="d5c427e5-d8b4-4510-a959-ebb182c733711" class="d5c427e5-d8b4-4510-a959-ebb182c73371-1 panel-collapse accord-1 collapse" aria-expanded="false" style="height: 0px;">
+                                                                            <div class="accordion-inner">
+                                                                                <div class="1">
+                                                                                    <div class="accordion-1 parsys">
+                                                                                        <div class="richtext parbase section">
+                                                                                            <div class="component-rich-text gloss" >
+                                                                                                <div class="top-spacing">
+                                                                                                    <div >
+                                                                                                        <div class="rich-text-wrapper bg-white"></div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="gridcomponent section">
+                                                                                            <div class="component-grid ">
+                                                                                                <div class="custom-grid page-stack top-spacing">
+                                                                                                    <div class="container-fluid stack-body ">
+                                                                                                        <div class="row">
+                                                                                                            <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
+                                                                                                                <div class="contentparsys1 parsys">
+                                                                                                                    <div class="richtext parbase section">
+                                                                                                                        <div class="component-rich-text gloss" >
+                                                                                                                            <div class="top-spacing">
+                                                                                                                                <div class="tertiary">
+                                                                                                                                    <div class="rich-text-wrapper bg-white">
+                                                                                                                                        <p>
+                                                                                                                                            <b>MAVENCLAD</b>
+                                                                                                                                            &nbsp;is the only* treatment in MS with a weight-based tailored dosing regimen<sup>1,2</sup>
+                                                                                                                                        </p>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <div class="richtext parbase section">
+                                                                                                                        <div class="component-rich-text gloss" id="Dose">
+                                                                                                                            <div class="top-spacing">
+                                                                                                                                <div class="common">
+                                                                                                                                    <div class="rich-text-wrapper bg-white">
+                                                                                                                                        <p>
+                                                                                                                                            Dose of <b>MAVENCLAD</b>
+                                                                                                                                            &nbsp;per treatment week by patient weight in each treatment year<sup>1</sup>
+                                                                                                                                        </p>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <div class="gridcomponent section">
+                                                                                                                        <div class="component-grid ">
+                                                                                                                            <div class="custom-grid page-stack top-spacing">
+                                                                                                                                <div class="container-fluid stack-body ">
+                                                                                                                                    <div class="row">
+                                                                                                                                        <div class="col-xs-12 col-sm-10 col-md-10 col-xl-10">
+                                                                                                                                            <div class="contentparsys1 parsys">
+                                                                                                                                                <div class="imagewithtext section">
+                                                                                                                                                    <div class="component-imagewithtext ">
+                                                                                                                                                        <div class="custom-grid top-spacing fluid stack-body imgtext-align ">
+                                                                                                                                                            
+                                                                                                                                                           <div class="Dosing_2_V2_2 image-background brd-img-title img-responsive">
+
+
+
+<img src="assets/Dosing2.png"
+ alt="per week dosage" class="image-background brd-img-title img-responsive">
+
+																																							</div>
+                                                                                                                                                            <div class="bg-white-mobile container">
+                                                                                                                                                                <div class="row imagewithtext-container">
+                                                                                                                                                                    <div class="col-xs-12 col-sm-6 imagewithtext-contents ">
+                                                                                                                                                                        <div class="imagewithtext-heading-spacing ft-slider-headline clr-img-heading"></div>
+                                                                                                                                                                        <div class="imagewithtext-description-spacing ft-text-copy-large clr-desc-text"></div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="gridcomponent section">
+                                                                                            <div class="component-grid ">
+                                                                                                <div class="custom-grid page-stack top-spacing">
+                                                                                                    <div class="container-fluid stack-body ">
+                                                                                                        <div class="row">
+                                                                                                            <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
+                                                                                                                <div class="contentparsys1 parsys">
+                                                                                                                    <div class="richtext parbase section">
+                                                                                                                        <div class="component-rich-text gloss" >
+                                                                                                                            <div class="top-spacing">
+                                                                                                                                <div class="common">
+                                                                                                                                    <div class="rich-text-wrapper bg-white">
+                                                                                                                                        <p>
+                                                                                                                                            <b>MAVENCLAD</b>
+                                                                                                                                            &nbsp;10mg tablets per day for treatment week<sup>1</sup>
+                                                                                                                                        </p>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <div class="gridcomponent section">
+                                                                                                                        <div class="component-grid ">
+                                                                                                                            <div class="custom-grid page-stack top-spacing">
+                                                                                                                                <div class="container-fluid stack-body ">
+                                                                                                                                    <div class="row">
+                                                                                                                                        <div class="col-xs-12 col-sm-10 col-md-10 col-xl-10">
+                                                                                                                                            <div class="contentparsys1 parsys">
+                                                                                                                                                <div class="imagewithtext section">
+                                                                                                                                                    <div class="component-imagewithtext ">
+                                                                                                                                                        <div class="custom-grid top-spacing fluid stack-body imgtext-align ">
+                                                                                                                                                            
+																																							<div class="Dosing_3_V2_3 image-background brd-img-title img-responsive">
+																																							
+																																							
+<img src="assets/Dosing3.png" 
+alt="per day dosage" class="image-background brd-img-title img-responsive">																																							
+																																							
+																																							</div>
+                                                                                                                                                            <div class="bg-white-mobile container">
+                                                                                                                                                                <div class="row imagewithtext-container">
+                                                                                                                                                                    <div class="col-xs-12 col-sm-6 imagewithtext-contents ">
+                                                                                                                                                                        <div class="imagewithtext-heading-spacing ft-slider-headline clr-img-heading"></div>
+                                                                                                                                                                        <div class="imagewithtext-description-spacing ft-text-copy-large clr-desc-text"></div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gridcomponent section">
+                    <div class="component-grid ">
+                        <div class="custom-grid page-stack top-spacing">
+                            <div class="container-fluid stack-body ">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
+                                        <div class="contentparsys1 parsys">
+                                            <div class="accordion section foot-notes-and-references">
+                                                <div class="page-container container-fluid custom-grid">
+                                                    <div class="panel-group accordion primary" >
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading accordion-toggle accordion-icon-style" data-toggle="collapse" data-parent="#" data-target="#5fc91819-1293-4f02-8e81-6fb06ff828a21" aria-expanded="true">
+                                                                <h4 class="panel-title accordion-section-title" data-model=".5fc91819-1293-4f02-8e81-6fb06ff828a2-1">Footnotes and references            </h4><div class="accordion-img-plus"></div> <div class="accordion-img-minus"></div>
+                                                                <div class="accordion-img-plus"></div>
+                                                                <div class="accordion-img-minus" style="display: none;"></div>
+                                                                <div class="accordion-img-plus"></div>
+                                                                <div class="accordion-img-minus" style="display: none;"></div>
+                                                                <div class="clsmore">See more</div>
+                                                                <div class="clsless">See less</div>
+                                                            </div>
+                                                            <div id="5fc91819-1293-4f02-8e81-6fb06ff828a21" class="5fc91819-1293-4f02-8e81-6fb06ff828a2-1 panel-collapse accord-1 collapse in" aria-expanded="true" >
+                                                                <div class="accordion-inner">
+                                                                    <div class="1">
+                                                                        <div class="accordion-1 parsys">
+                                                                            <div class="richtext parbase section">
+                                                                                <div class="foot-note-references component-rich-text gloss" >
+                                                                                    <div class="top-spacing">
+                                                                                        <div >
+                                                                                            <div class="rich-text-wrapper bg-white">
+                                                                                                <ol>
+                                                                                                    <li>
+                                                                                                        <b>
+                                                                                                            MAVENCLAD<sup>®</sup>
+                                                                                                        </b>
+                                                                                                        SmPC, 2017.
+                                                                                                    </li>
+                                                                                                    <li>
+                                                                                                        Giovannoni G <i>et al. N Engl J Med</i>
+                                                                                                        2010; 362:416–426.
+                                                                                                    </li>
+                                                                                                </ol>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <footer>
+                    <div class="footer-container iparsys parsys">
+                        <div class="section">
+                            <div class="new"></div>
+                        </div>
+                        <div class="iparys_inherited">
+                            <div class="footer-container iparsys parsys">
+                                <div class="container parsys section">
+                                    <div class="component-container">
+                                        <div class="container parsys">
+                                            <div class="imagewithtext section">
+                                                <div class="component-imagewithtext theme1">
+                                                    <div class="custom-grid top-spacing fluid stack-body imgtext-align ">
+                                                        
+                                                        <div class="merck_logo-splash image-background brd-img-title img-responsive">
+														
+														<img class="merck_logo-splash image-background brd-img-title img-responsive" src="assets/merck_logo-splash.png" alt="merck-footer-logo" >
+														
+														
+														</div>
+                                                        <div class="bg-white-mobile container">
+                                                            <div class="row imagewithtext-container">
+                                                                <div class="col-xs-12 col-sm-6 imagewithtext-contents ">
+                                                                    <div class="imagewithtext-heading-spacing ft-slider-headline clr-img-heading"></div>
+                                                                    <div class="imagewithtext-description-spacing ft-text-copy-large clr-desc-text"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer section">
+                                    <input type="hidden" id="curPage" name="curPage" value="dosing">
+                                    <input type="hidden" id="curTitle" name="curTitle" value="MAVENCLAD® | Getting started: Dosing | Merck Neurology">
+                                    <div class="component-footer">
+                                        <div class="custom-grid container top-spacing page-stack">
+                                            <div class="row">
+                                                <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center center-blocks m-top-back">        <div class="m-back-text" id="backtotop">-->
+                                                <div class="col-sm-7 col-md-8 col-lg-10">
+                                                    <span></span>
+                                                </div>
+                                                <!-- </div>-->
+                                                <div class="col-sm-7 col-md-8 col-lg-10">
+                                                    <div class="footer_info-top">
+                                                        <p class="footer_info-top--first">This is an international website for international Healthcare Professionals outside North America.</p>
+                                                        <p class="footer_info-top--second">
+                                                            Information on this site is from the Summary of Product Characteristics (SmPC) for Merck 
+                                                            <b>
+                                                                MAVENCLAD<sup>®</sup>
+                                                            </b>
+                                                            or Merck 
+                                                            <b>
+                                                                Rebif<sup>®</sup>
+                                                            </b>
+                                                            in the EU. Registration status and approved product labels may vary according to specific country.
+                                                        </p>
+                                                    </div>
+                                                    <div class="footer_info_section">
+                                                        <div class="footer_address">
+                                                            <p></p>
+                                                            <p>© Merck KGaA, Darmstadt, Germany. Registered Address: Merck KGaA, Frankfurter Strasse 250,64293 Darmstadt, Germany</p>
+                                                            <p></p>
+                                                        </div>
+                                                        <div class="footer_contact">
+                                                            <p></p>
+                                                        </div>
+                                                        <div class="footer_info">
+                                                            <p></p>
+                                                        </div>
+                                                        <div class="footer_info">
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hide"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+				
+            </div>
+        
+<script src="js/library.js"></script>
+<script src="js/components.js"></script>
+<script src="js/dosing.js"></script>    
+<script src="global.js"></script>    
+
+
+
+</body></html>
