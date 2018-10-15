@@ -12,7 +12,7 @@ var version = 'v1::';
    then the service worker won't be installed either.
 */
 var offlinedosing = [
-	'offline-version1.html',
+	'offline.html',
 	'assets/favicon.ico',
 	'assets/apple-touch-icon.png',
 	'assets/maven-header-logo.png',
