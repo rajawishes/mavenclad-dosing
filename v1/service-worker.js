@@ -97,7 +97,7 @@ event.respondWith(
     // We handle the network request with success and failure scenarios.
     .then(fetchedFromCache, unableToResolve)
     // We should catch errors on the fetchedFromNetwork handler as well.
-    .catch(unableToResolve);
+    .catch(unableToResolve));
 
     function fetchedFromCache(cached) {
         // We return the response from the ServiceWorker cache.
